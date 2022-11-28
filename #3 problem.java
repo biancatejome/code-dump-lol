@@ -4,8 +4,7 @@ public class Activity {
     public static void main(String[] args) throws Exception {
 
         char operator;
-        int result;
-        int num1, num2;
+        int result, num1, num2;
 
         System.out.println("Basic Calculator");
 
