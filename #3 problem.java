@@ -27,19 +27,19 @@ public class Activity {
         switch (operator) {
             case '+':
                 result = num1 + num2;
-                System.out.println(num1 + "+" + num2 + "=" + result);
+                System.out.println(num1 + " + " + num2 + " = " + result);
                 break;
             case '-':
                 result = num1 - num2;
-                System.out.println(num1 + "-" + num2 + "=" + result);
+                System.out.println(num1 + " - " + num2 + " = " + result);
                 break;
             case '/':
                 result = num1 / num2;
-                System.out.println(num1 + "/" + num2 + "=" + result);
+                System.out.println(num1 + " / " + num2 + " = " + result);
                 break;
             case '*':
                 result = num1 * num2;
-                System.out.println(num1 + "*" + num2 + "=" + result);
+                System.out.println(num1 + " * " + num2 + " = " + result);
                 break;
             default:
                 System.out.println("INVALID OPERATOR");
